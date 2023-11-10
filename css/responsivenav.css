@@ -1,0 +1,60 @@
+@media only screen and (max-width: 746px) {
+
+    .logo {
+        margin-left: 5%;
+      }
+      .but {
+        margin-left: 27%;
+      }
+      .navl {
+        font-size: 20px;
+      }
+      .navl:hover {
+        font-size: 20px;
+        color: whitesmoke;
+        font-weight: bold;
+      }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .but.b1{
+      display: flex;
+    }
+    .liv{
+        display: initial;
+    }
+    .lia{
+        display: none;
+    }
+    .logo {
+      margin-left: -62%;
+    }
+    .but.b1 {
+      margin-left: 2%;
+    }
+}
+@media only screen and (max-width: 450px) {
+
+    .logo {
+      margin-left: -81%;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+    .logo {
+      margin-left: -102%;
+    }
+}
+@media only screen and (max-width: 325px) {
+
+    .logo {
+      margin-left: -128%;
+    }
+}
+@media only screen and (max-width: 300px) {
+
+    .logo {
+      margin-left: -153%;
+    }
+}

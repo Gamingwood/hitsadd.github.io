@@ -1,0 +1,48 @@
+@media(max-width: 500px){
+    h1.c-texe {
+        color: aliceblue;
+        font-weight: bolder;
+        font-size: xx-large;
+      }
+      .img {
+        margin-top: 1%;
+      }
+      .big-logo {
+        height: 275px;
+      }
+      .contact-links {
+        margin-top: 0%;
+      }
+      .pngs {
+        height: 64px;
+      }
+}
+@media (max-width: 400px){
+    .big-logo {
+        height: 180px;
+      }
+      .pngs {
+        height: 55px;
+      }
+}
+@media (max-width: 342px){
+    h1.c-texe {
+        color: aliceblue;
+        font-weight: bolder;
+        font-size: 24px;
+      }
+      .img {
+        margin-top: 0%;
+      }
+      .big-logo {
+        height: 180px;
+      }
+      .pngs {
+        height: 50px;
+      }
+}
+@media (max-width: 312px) {
+    .pngs {
+      height: 45px;
+    }
+  }

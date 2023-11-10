@@ -1,0 +1,55 @@
+/* @media only screen and (max-width: 1080px) {
+    .upc {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .trands.t11 {
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+}
+@media (max-width: 675px){
+    .trands.t11 {
+        font-size: 21px;
+      }
+}
+@media (max-width: 550px) {
+    .mpic {
+        width: 72%;
+        margin-left: 20%;
+        margin-top: 9%;
+        cursor: pointer;
+      }
+
+    .primary {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-weight: bold;
+        font-size: 29px;
+    }
+
+    .secondary {
+        font-family: 'Nothing You Could Do', cursive;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tirtury {
+        font-size: 12px;
+    }
+
+    .cl1.clog {
+        height: 52px;
+        display: none;
+    }
+
+    .cl1.cp {
+        display: none;
+    }
+
+} */

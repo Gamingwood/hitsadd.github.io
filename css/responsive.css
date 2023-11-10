@@ -1,0 +1,289 @@
+@media only screen and (max-width: 1080px) {
+  .prastavanaa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 950px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+  }
+
+  img.mpic {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 850px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+h1.tophead {
+  color: white;
+  font-size: 33px;
+  padding-top: 3%;
+}
+  img.mpic {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 42vh;
+  }
+}
+
+@media (max-width: 750px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 31px;
+    padding-top: 3%;
+  }
+
+  img.mpic {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 650px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 29px;
+    padding-top: 3%;
+  }
+
+  img.mpic {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+  }
+
+  button.back {
+    height: 24px;
+    width: 73px;
+    background-color: #18a9f0;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border: 2px;
+    margin-left: 26%;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 25px;
+    padding-top: 3%;
+  }
+
+  h1.primary {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  img.mpic {
+    width: 77%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 30vh;
+  }
+
+  h2.secondary {
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 15px;
+  }
+
+  h3.tirtury {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 14px;
+  }
+
+  .portf.topportf {
+    display: none;
+  }
+  button.back {
+    height: 24px;
+    width: 73px;
+    background-color: #18a9f0;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border: 2px;
+    margin-left: 25%;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1.primary {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+  }
+
+  button.back {
+    height: 24px;
+    width: 73px;
+    background-color: #18a9f0;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border: 2px;
+    margin-left: 23%;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  h1.primary {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  h2.secondary {
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 13px;
+  }
+
+  h3.tirtury {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 12px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 22px;
+    padding-top: 3%;
+  }
+
+  img.mpic {
+    width: 77%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 27vh;
+  }
+}
+
+@media (max-width: 400px) {
+  h1.primary {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  h2.secondary {
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 11px;
+  }
+
+  h3.tirtury {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 10px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 20px;
+    padding-top: 3%;
+  }
+  img.mpic {
+    width: 77%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 25vh;
+  }
+}
+
+@media (max-width: 350px) {
+  div.left-t {
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  h1.primary{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+  }
+  h1.toptrandsin {
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 18px;
+    padding-top: 3%;
+  }
+
+  button.back {
+    height: 24px;
+    width: 73px;
+    background-color: #18a9f0;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border: 2px;
+    margin-left: 22%;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}

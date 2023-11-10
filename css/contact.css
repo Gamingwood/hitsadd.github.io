@@ -1,0 +1,30 @@
+main {
+    background-image: url("/assets/iamges/contentimg/contactbg.jpg");
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fulcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+  }
+  .c-texe {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: xxx-large;
+  }
+  .img {
+    margin-top: 3%;
+  }
+  .big-logo {
+    height: 374px;
+  }
+  .contact-links {
+    margin-top: 2%;
+  }
+  .pngs {
+    height: 73px;
+  }

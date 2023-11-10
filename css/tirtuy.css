@@ -1,0 +1,157 @@
+.prastaavana{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.enjoy{
+    padding-top: 2%;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.picdiscription {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.movie-image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+  }
+  .movieimage {
+    width: 35%;
+  }
+  .description {
+    border: 2px solid cadetblue;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    margin-top: 56%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+  }
+  .lang {
+    padding-top: 8%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+  }
+  .downbtn {
+    padding-top: 14%;
+  }
+  .download {
+    height: 35px;
+    width: 177px;
+    border: 2px solid;
+    border-radius: 9px;
+    font-size: larger;
+    color: black;
+    background: cornflowerblue;
+    cursor: pointer;
+    display: block;
+  }
+  .download:hover {
+    background-color: violet;
+    color: whitesmoke;
+  }
+  /* RESPOENSIVE WORK */
+  @media (max-width: 1180px){
+    h1.enjoy {
+        padding-top: 2%;
+        color: white;
+        font-weight: bolder;
+        font-size: 37px;
+      }
+    .movie-image {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4%;
+        flex-direction: column;
+      }
+      .movieimage {
+        width: 43%;
+      }
+      .description {
+        border: 5px solid cadetblue;
+        height: 67%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4%;
+        border-radius: 26px;
+      }
+      .download.ottbtn {
+        height: 35px;
+        width: 177px;
+        border: 2px solid;
+        border-radius: 9px;
+        font-size: larger;
+        color: black;
+        background: cornflowerblue;
+        cursor: pointer;
+        align-self: center;
+        
+      }
+      .name {
+        margin-top: 5%;
+        color: white;
+        font-weight: bold;
+      }
+      .lang {
+        padding-top: 5%;
+        color: white;
+        font-weight: bold;
+      }
+      .episode-ott {
+        display: flex;
+      }
+      .downbtn {
+        padding-top: 4%;
+        margin-bottom: 3%;
+      }
+
+  }
+  @media(max-width:750px){
+    h1.enjoy {
+        padding-top: 2%;
+        color: white;
+        font-weight: bolder;
+        font-size: 33px;
+      }
+  }
+  @media(max-width:600px){
+    h1.enjoy {
+        padding-top: 2%;
+        color: white;
+        font-weight: bolder;
+        font-size: 28px;
+      }
+  }
+  @media ( max-width: 450px){
+    .download.ottbtn {
+      width: 140px;
+    }
+
+  }
+  @media ( max-width: 350px){
+    .download.ottbtn {
+
+        width: 118px;
+    } .description.ott {
+      height: 73%;
+    }
+  }
