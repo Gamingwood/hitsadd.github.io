@@ -58,3 +58,13 @@
       margin-left: -153%;
     }
 }
+@media only screen and (max-width: 250px) {
+  .logo {
+    margin-left: -168%;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .logo {
+    margin-left: -196%;
+  }
+}

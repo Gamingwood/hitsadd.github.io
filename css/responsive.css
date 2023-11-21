@@ -1,13 +1,37 @@
+@media only screen and (max-width:1225px){
+  img.mpic {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 319px;
+  }
+}
 @media only screen and (max-width: 1080px) {
   .prastavanaa {
     flex-direction: column;
     align-items: center;
   }
-
+  img.mpic {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 279px;
+  }
   h1.toptrandsin {
     color: white;
     font-weight: bolder;
     font-size: 28px;
+  }
+}
+@media(max-width:1000px){
+  img.mpic {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 254px;
   }
 }
 
@@ -19,10 +43,11 @@
   }
 
   img.mpic {
-    width: 65%;
+    width: 60%;
     margin-left: 20%;
     margin-top: 9%;
     cursor: pointer;
+    height: 230px;
   }
 }
 
@@ -37,13 +62,13 @@ h1.tophead {
   font-size: 33px;
   padding-top: 3%;
 }
-  img.mpic {
-    width: 70%;
-    margin-left: 20%;
-    margin-top: 9%;
-    cursor: pointer;
-    height: 42vh;
-  }
+img.mpic {
+  width: 69%;
+  margin-left: 20%;
+  margin-top: 9%;
+  cursor: pointer;
+  height: 229px;
+}
 }
 
 @media (max-width: 750px) {
@@ -63,7 +88,15 @@ h1.tophead {
     margin-left: 20%;
     margin-top: 9%;
     cursor: pointer;
-    height: 35vh;
+  }
+}
+@media only screen and  (max-width:700px){
+  img.mpic {
+    width: 67%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 200px;
   }
 }
 
@@ -99,6 +132,15 @@ h1.tophead {
     font-size: 15px;
   }
 }
+@media(max-width:600px){
+  img.mpic {
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 160px;
+  }
+}
 
 @media (max-width: 550px) {
   h1.toptrandsin {
@@ -118,15 +160,13 @@ h1.tophead {
     font-weight: bold;
     font-size: 35px;
   }
-
   img.mpic {
-    width: 77%;
+    width: 70%;
     margin-left: 20%;
     margin-top: 9%;
     cursor: pointer;
-    height: 30vh;
+    height: 165px;
   }
-
   h2.secondary {
     font-family: 'Nothing You Could Do', cursive;
     color: white;
@@ -155,7 +195,15 @@ h1.tophead {
     font-size: 15px;
   }
 }
-
+@media(max-width:500px){
+  img.mpic {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 152px;
+  }
+}
 @media (max-width: 480px) {
   h1.primary {
     font-family: 'Dancing Script', cursive;
@@ -209,12 +257,21 @@ h1.tophead {
     padding-top: 3%;
   }
 
-  img.mpic {
+  /* img.mpic {
     width: 77%;
     margin-left: 20%;
     margin-top: 9%;
     cursor: pointer;
     height: 27vh;
+  } */
+}
+@media(max-width:460){
+  img.mpic {
+    width: 70%;
+    margin-left: 18%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 140px;
   }
 }
 
@@ -243,12 +300,23 @@ h1.tophead {
     padding-top: 3%;
   }
   img.mpic {
-    width: 77%;
-    margin-left: 20%;
+    width: 76%;
+    margin-left: 14%;
     margin-top: 9%;
     cursor: pointer;
-    height: 25vh;
+    height: 122px;
   }
+  button.more {
+    color: white;
+    background: chocolate;
+    font-weight: bolder;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -285,5 +353,80 @@ h1.tophead {
     margin-left: 22%;
     cursor: pointer;
     font-size: 15px;
+  }
+}
+@media(max-width:330px){
+  img.mpic {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 129px;
+  }
+  h1.tophead {
+    color: white;
+    font-size: 15px;
+    padding-top: 3%;
+  }
+}
+@media(max-width:300px){
+  img.mpic {
+    width: 82%;
+    margin-left: 11%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 123px;
+  }
+}
+@media ( max-width: 350px){
+  h3.ltxth {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+  }
+  p.fact {
+    color: white;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+}
+@media(max-width:285px){
+  img.mpic {
+    width: 78%;
+    margin-left: 11%;
+    margin-top: 9%;
+    cursor: pointer;
+    height: 118px;
+  }
+}
+@media(max-width:280px){
+  h3.ltxth {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media(max-width:250px){
+  h3.ltxth {
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+  button.more {
+    color: white;
+    background: chocolate;
+    font-weight: bolder;
+    font-size: 12px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  button.more:hover {
+    background: brown;
+    font-size: 12px;
   }
 }

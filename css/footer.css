@@ -99,13 +99,16 @@ footer {
       }
   }
   @media (max-width: 950px){
+    .cp.linked {
+      padding-left: 6px;
+    }
     div.f1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 15%;
-        flex-direction: column;
-      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 15%;
+      flex-direction: column;
+    }
       .navigationf {
         color: white;
         font-size: 24px;
@@ -119,6 +122,17 @@ footer {
         display: flex;
         font-size: 18px;
       }
+      .footer {
+        color: white;
+        font-size: 17px;
+      }
+      .con-link.fconl {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 25%;
+      }
       div.con-link {
         display: flex;
         flex-direction: column;
@@ -127,10 +141,17 @@ footer {
         margin-left: 15%;
       }
       img.clog {
-        height: 46px;
+        height: 40px;
       }
       .cp.linked {
-        padding-left: 20px;
+        padding-left: 17px;
+      }
+      p.cp {
+        color: whitesmoke;
+        padding-top: 7px;
+        font-size: 21px;
+        padding-left: 10px;
+        margin-left: -10px;
       }
       img.clog {
         height: 46px;
@@ -177,6 +198,14 @@ footer {
         padding-left: 10px;
       }
   }
+  @media(max-width:625px){
+    .footer {
+      color: white;
+      align-items: center;
+      display: flex;
+      font-size: 13px;
+    }
+  }
   @media (max-width: 600px) {
     div.f1 {
       display: flex;
@@ -219,6 +248,18 @@ footer {
         font-size: 18px;
         padding-left: 1px;
       }
+  }
+  @media(max-width:550px){
+    .footer {
+      color: white;
+      align-items: center;
+      display: flex;
+      font-size: 11px;
+    }
+    p.cp{
+      font-size: 16px;
+      padding-left: 3px;
+    }
   }
 
   @media (max-width: 512px) {
@@ -276,7 +317,7 @@ footer {
       }
       p.navigationf {
         color: white;
-        font-size: 19px;
+        font-size: 16px;
         display: flex;
         flex-direction: row;
         margin-top: 3px;
@@ -304,9 +345,23 @@ footer {
         margin-left: -7px;
       }
   }
+  @media(max-width:400px){
+    .footer {
+      color: white;
+      align-items: center;
+      display: flex;
+      font-size: 9px;
+    }
+  }
   @media (max-width: 360px) {
+    footer {
+      background-color: black;
+      height: 17vh;
+      display: flex;
+      justify-content: center;
+    }
     div.f1 {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-right: 2%;
@@ -314,10 +369,24 @@ footer {
       }
       p.navigationf {
         color: white;
-        font-size: 19px;
+        font-size: 16px;
         display: flex;
         flex-direction: row;
         margin-top: 0px;
+      }
+      .footer {
+        color: white;
+        align-items: center;
+        display: flex;
+        font-size: 11px;
+        justify-content: center;
+        align-content: center;
+      }
+      img.clog {
+        height: 23px;
+      }
+      .cp.linked {
+        padding-left: 6px;
       }
       div.con-link {
         display: flex;
@@ -332,5 +401,16 @@ footer {
         font-size: 11px;
         padding-left: 0px;
       }
+      p.cp{
+        padding-top: 3px;
+      }
 
+  }
+  @media (max-width: 302px) {
+    .cp.linked {
+      padding-left: 10px;
+    }
+    p.cp {
+      padding-top: 3px;
+    }
   }
